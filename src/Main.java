@@ -1,7 +1,6 @@
 class SolidIngredient implements ingredients{
     private String _name;
     private int _quantity;
-    public void SolidIngredient(){}
     public void SolidIngredient(String n, int q){
         _name = n;
         _quantity = q;
